@@ -33,10 +33,10 @@ jobs:
         docker build -t gaboramirezdev/docker-gaph:0.0.3 .
         docker image ls
         
-    - name: Push Docker Image
-      run: |
-        docker push gaboramirezdev/docker-graph:0.0.3
-        docker image ls
+#     - name: Push Docker Image
+#       run: |
+#         docker push gaboramirezdev/docker-graph:0.0.3
+#         docker image ls
         
 #     - name: Build the Docker image
 #       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
